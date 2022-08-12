@@ -1,3 +1,4 @@
+html, body { max-width: 100%; overflow-x: hidden; }
 /*
 * Resume template
 * Created by : Ahmed Essa
@@ -62,6 +63,7 @@ font-family: 'Open Sans', sans-serif;
 /* 스크롤 외형 */
 body::-webkit-scrollbar {/*스크롤바 전체*/
     width: 10px;
+    height: 10px;
   }
   body::-webkit-scrollbar-thumb {/*스크롤바 막대*/
     background-color: #1d2088;
@@ -111,6 +113,7 @@ body {
     font-family: 'Happiness-Sans-Regular', sans-serif;
     font-size: 14px;
     line-height: 24px;
+    cursor: url(../img/cusser.png), auto
 }
 
 .size-50 {

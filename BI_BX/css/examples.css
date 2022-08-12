@@ -10,40 +10,13 @@ body{
 
 img{height: 100vh; display: block; margin: 0 auto; width: auto;}
 
-/* menu */
-#menu{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 99;
-}
-#menu li{
-	float: left;
-	width: 33.33%;
-	text-align: center;
-}
-#menu li a{
-	display: block;
-	padding: 20px 0;
-	font-size: 20px;
-}
-#menu li a:hover{
-	color: red;
-}
-
 /* section1 */
 .section{
 	background-color: #f7f5f1;
-	text-align: center;
-}
+	text-align: center;}
 
-/* section2 */
-
-.myContent{
-	height: 300px;
-}
-#section4 h1{
-	padding: 120px 0;
-}
-
+	.button {width: 50px; height: 200px;}
+.button img{width: 50px; height: 50px; display: block; opacity: 0.5; transition: all 1s;}
+.button img:hover{opacity: 1; transform: rotate(-360deg) scale(1.5);}
+.button .home{position: fixed; top: 1880%; right: 2%}
+.button .back{position: fixed; top: 1890%; right: 2%}
