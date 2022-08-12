@@ -10,30 +10,10 @@ body{
 
 img{height: 100vh; display: block; margin: 0 auto; width: auto;}
 
-/* menu */
-#menu{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 99;
-}
-#menu li{
-	float: left;
-	width: 33.33%;
-	text-align: center;
-}
-#menu li a{
-	display: block;
-	padding: 20px 0;
-	font-size: 20px;
-}
-#menu li a:hover{
-	color: red;
-}
-
 .section{background-color: #f1f5f7;}
 
-.myContent{
-	height: 300px;
-}
+.button {width: 50px; height: 200px;}
+.button img{width: 50px; height: 50px; display: block; opacity: 0.5; transition: all 1s;}
+.button img:hover{opacity: 1; transform: rotate(-360deg) scale(1.5);}
+.button .home{position: fixed; top: 2080%; right: 2%}
+.button .back{position: fixed; top: 2090%; right: 2%}
